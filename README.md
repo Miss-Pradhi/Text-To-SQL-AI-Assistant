@@ -1,4 +1,4 @@
-              🚀 Text-to-SQL AI Assistant (RAG + LLM Powered)
+                                       🚀 Text-to-SQL AI Assistant (RAG + LLM Powered)
 This project is an AI-powered Text-to-SQL + RAG system that converts natural language into SQL queries and retrieves results from a database using LangChain, Groq LLM, and Vector Database (RAG pipeline).
 It also supports knowledge-based retrieval using embeddings for improved query understanding.
 
