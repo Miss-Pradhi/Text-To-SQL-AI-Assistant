@@ -1,0 +1,11 @@
+customers table:
+id = customer id
+name = customer name
+city = customer city
+
+sales table:
+id = sale id
+product = product name
+region = sales region
+amount = sales amount in INR
+customer_id links to customers.id

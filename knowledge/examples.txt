@@ -1,0 +1,18 @@
+Question: Show all customers
+SQL:
+SELECT * FROM customers;
+
+Question: Total sales
+SQL:
+SELECT SUM(amount) FROM sales;
+
+Question: Customers from Pune
+SQL:
+SELECT * FROM customers WHERE city='Pune';
+
+Question: Sales by city
+SQL:
+SELECT city, SUM(amount)
+FROM customers c
+JOIN sales s ON c.id=s.customer_id
+GROUP BY city;

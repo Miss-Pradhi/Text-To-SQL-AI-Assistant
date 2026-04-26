@@ -1,0 +1,7 @@
+Use JOIN when city or customer name is requested.
+
+Use SUM(amount) for total sales.
+
+Use AVG(amount) for average sales.
+
+Use GROUP BY for region/product analytics.
